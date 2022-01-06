@@ -3,14 +3,15 @@ body
     font-family: 'Yeseva One', cursive;
 }
 h1{
-    font-size: 50px;  
+    font-size: 50px;
+    padding-left: 10px;
 }
 .border{
     border-left: 4px rgba(240, 71, 71, 0.979) solid;
-    border 
 }
 .orange-color{
     color: orange;
+    padding-left: 10px;
 }
 section{
     display: flex;
@@ -31,5 +32,43 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
-
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.year{
+    color: orange;
+}
+.mission{
+    display: flex;
+    width: 100%;
+}
+.img img{
+    width: 45%;
+    display: block;
+}
+.div{
+    margin: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#one{
+    background-color: lightgreen;
+    padding-left: 20px;
+    
+}
+#two{
+    background-color: lightpink;
+    padding-left: 20px;
+}
+#three{
+    background-color: palegoldenrod;
+    padding-left: 20px;
+}
+.div{
+    border-radius: 15px;
 }
