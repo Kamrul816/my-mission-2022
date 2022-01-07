@@ -1,5 +1,6 @@
-body
-{   margin: 30px;
+body{ 
+    margin: 0px;
+    padding: 0px;
     font-family: 'Yeseva One', cursive;
 }
 h1{
@@ -94,4 +95,79 @@ h3{
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 400;
+}
+.global-community{
+    width: 50%;
+    padding-top: 10%; 
+}
+.half-width img{
+    width: 80%;
+    padding-top: 10px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgba(240, 71, 71, 0.979);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.year{
+    color: orange;
+}
+.mission{
+    display: flex;
+    width: 100%;
+}
+.img img{
+    width: 45%;
+    display: block;
+}
+.div{
+    margin: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#one{
+    background-color: lightgreen;
+    padding-left: 20px;
+    
+}
+#two{
+    background-color: lightpink;
+    padding-left: 20px;
+}
+#three{
+    background-color: palegoldenrod;
+    padding-left: 20px;
+}
+.round{
+    border-radius: 40%;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section{
+    display: flex;
+   
+}
+footer h4{
+    color: lightcyan;
+    font-size: 20px;
+}
+footer p{
+    color: lightcyan;
+   font-size: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(15, 8, 8, 0.952);
+    padding: 20px 0px 20px 0;
 }
